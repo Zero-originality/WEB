@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+gap: 5px;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.child{
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+}
+.child1{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+.parent2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.child2{
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+    display: flex;
+    align-items: end;
+}
+.child3{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+.child4{
+    height: 100%;
+    width: 50%;
+    background-color: crimson;
+    display: flex;
+    justify-content: end;
+}
+.child5{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+.parent3{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.child6{
+    height: 100%;
+    width: 33%;
+    background-color: aqua;
+}
+.child7{
+    height: 100%;
+    width: 33%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child8{
+    height: 50%;
+    width: 25%;
+    background-color: black;
+}
+.child9{
+    height: 100%;
+    width: 33%;
+    background-color: aqua;
+}
+.parent4{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(102, 19, 35);
+}
+.sub1{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(11, 88, 88);
+}
+.sub2{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(87, 17, 31);
+}
+.parent5{
+    height: 50%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.sub3{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(107, 2, 23);
+}
+.sub4{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(30, 92, 92);
+}
